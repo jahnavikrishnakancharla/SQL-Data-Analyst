@@ -1,5 +1,5 @@
 -- ==========================================
--- DAY 01: SQL FUNDAMENTALS
+-- DAY 01: SQL FUNDAMENTALS & DATA FILTERING
 -- Data Analyst SQL Learning
 -- ==========================================
 
@@ -38,7 +38,13 @@ FROM students
 WHERE branch = 'CSD' OR branch = 'EEE';
 
 
--- Alternative using IN
+-- 7. Alternative: Use IN for multiple values
 SELECT student_id, name, branch
 FROM students
 WHERE branch IN ('CSD', 'EEE');
+
+
+-- 8. Show students whose CGPA is NOT between 9.0 and 9.5
+SELECT name, branch, cgpa
+FROM students
+WHERE cgpa NOT BETWEEN 9.0 AND 9.5;
