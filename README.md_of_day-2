@@ -1,0 +1,26 @@
+# Day 02 — SQL Sorting, Limiting & Pattern Matching
+
+## Objective
+
+Learn how to sort, limit, remove duplicate values, and search text patterns using SQL.
+
+## Topics Learned
+
+- ORDER BY
+- ASC
+- DESC
+- WHERE + ORDER BY
+- LIMIT
+- DISTINCT
+- LIKE
+- AND
+- Combining multiple SQL clauses
+
+## 1. ORDER BY
+
+Used to sort data.
+
+### Ascending
+
+```sql
+ORDER BY cgpa ASC;
