@@ -1,0 +1,52 @@
+# Day 01 - SQL Fundamentals
+
+## Objective
+
+Learn the basic SQL concepts required for Data Analyst work.
+
+## Topics Practiced
+
+- SELECT
+- FROM
+- Selecting specific columns
+- WHERE
+- Comparison operators
+- AND
+- OR
+- BETWEEN
+- IN
+
+## Dataset
+
+Table: `students`
+
+Columns:
+
+- student_id
+- name
+- branch
+- cgpa
+- city
+
+## Queries Practiced
+
+1. Display all students
+2. Select specific columns
+3. Filter students by branch
+4. Filter students by CGPA
+5. Use BETWEEN for a range
+6. Use OR for multiple conditions
+7. Use IN as an alternative to OR
+
+## Key Learning
+
+### WHERE
+
+Used to filter rows based on a condition.
+
+### BETWEEN
+
+Used to filter values within a range.
+
+```sql
+WHERE cgpa BETWEEN 9.0 AND 9.5
